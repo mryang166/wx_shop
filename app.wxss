@@ -1,0 +1,27 @@
+@import "./styles/iconfont.wxss";
+
+/* 微信小程序不支持 通配符 '*' */
+page,view,text,swiper,swiper-item,image,navigator{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 主题颜色  变量来实现
+1 less中存在 变量这个知识
+2  原生的css和wxss支持 变量
+*/
+page{
+    /* 定义主题颜色 */
+    --themeColor:#e0333f;
+    /* 定义统一字体大小
+    1px = 2rpx
+    14rpx = 28rpx
+    */
+    font-size: 28rpx;
+
+}
+
+image{
+    width: 100%;
+}
